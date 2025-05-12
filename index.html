@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Página de Bienvenida - Tonalidades Marrones Pasteles</title>
+<style>
+  /* Reset y base */
+  * {
+    box-sizing: border-box;
+  }
+  body, html {
+    margin: 0; padding: 0; height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f4ede7, #d9cbb6);
+    color: #5a4634;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .container {
+    background: #f7f2ea;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(90, 70, 52, 0.3);
+    width: 90%;
+    max-width: 450px;
+    padding: 3rem 2.5rem;
+    text-align: center;
+    border: 2px solid #cbbf9f;
+  }
+  h1 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #7b6851;
+    text-shadow: 0 1px 5px rgba(255,255,255,0.6);
+  }
+  p {
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #6e5a3c;
+  }
+  a.button {
+    background: #a7865c;
+    border: none;
+    padding: 0.85rem 2rem;
+    border-radius: 30px;
+    color: #fff9f0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 6px 15px rgba(167, 134, 92, 0.45);
+    text-decoration: none;
+    display: inline-block;
+  }
+  a.button:hover, a.button:focus {
+    background: #7f6645;
+    outline: none;
+  }
+  /* Responsive */
+  @media (max-width: 400px) {
+    .container {
+      padding: 2rem 1.8rem;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    a.button {
+      padding: 0.75rem 1.6rem;
+      font-size: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <main>
+    <section class="container" role="main">
+      <h1>¡Bienvenida Andrea!</h1>
+      <p>Quisiera hablar de algunas cosas y quisiera aclarar otras.</p>
+      <a href="inicio2.html" class="button" aria-label="Continuar a la página de inicio">Continuar</a>
+    </section>
+  </main>
+</body>
+</html>
+
